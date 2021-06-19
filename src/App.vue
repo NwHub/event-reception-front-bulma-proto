@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <EventReception />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import "bulma/css/bulma.css";
+import EventReception from "./components/EventReception.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    EventReception,
   },
 };
 </script>
